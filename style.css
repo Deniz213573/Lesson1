@@ -1,0 +1,223 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 100%;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.left{
+    background-color: aqua;
+    width: 25%;
+    height: 25%;
+    background: linear-gradient( to left, green, blue);  
+}
+
+.left2{
+    background-color: bisque;
+    width: 25%;
+    height: 25%;
+    background: linear-gradient( to left, blue, green);  
+}
+.right{
+    background-color: rgb(0, 255, 72);
+    width: 25%;
+    height: 25%;
+    background: linear-gradient( to left, yellow, blue);  
+}
+.right2{
+    background-color: cadetblue;
+    width: 25%;
+    height: 25%;
+    background: linear-gradient( to left, violet, yellow);  
+}
+.right ul{
+    font-size: 25px;
+   
+}
+.right2 ul{
+    font-size: 25px;
+}
+.left2 ol{
+    font-size: 25px;
+}
+.left ol{
+    font-size: 25px;
+}
+.right li{
+    background-color: azure;
+    line-height: 1.2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 20px;
+}
+.right2 li{
+    background-color: brown;
+    line-height: 1.2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 20px;
+}
+.left li{
+    background-color: rgb(251, 255, 0);
+    line-height: 1.2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 20px;
+}
+.left2 li{
+    background-color: aquamarine;
+    line-height: 1.2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+    
+}
+.right li:hover{
+    background-color: darkorange;
+    color: wheat;
+}
+.right2 li:hover{
+    background-color: coral;
+    color: chartreuse;
+}
+.left li:hover{
+    background-color:orangered ;
+    color: black;
+}
+.left2 li:hover{
+    background-color: crimson;
+    color: cornflowerblue;
+}
+.left h2{
+    color: aliceblue;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 255, 34);
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid wheat;
+    overflow: hidden;
+    border: none;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    
+    float: left;
+    font-family: sans-serif;
+}
+.nav a:hover{
+    color: aqua;
+    background-color: brown;
+}
+.block1{
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    background-color: chocolate;
+}
+.btn1{
+    width: 200px;
+    height: 100px;
+    background-color: burlywood;
+    color: rgb(0, 0, 0);
+    padding: 20px 30px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: bisque;
+    color: rgb(51, 0, 255) ;
+    border: 2px solid black;
+}
+.btn1:active{
+    background-color: blue;
+    color:yellow;
+}
+.altan{
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+.img_button{
+    height: 2em;
+    position: relative;
+    color: cadetblue;
+}
+.img_button:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+.search{
+    width: 50%;
+}
+form{
+    height: 100%;
+    width: 500px;
+    margin-left: 650px;
+    display: flex;
+    float: right;
+}
